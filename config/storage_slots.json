@@ -1,0 +1,6 @@
+{
+    "default_crdt_type": "add",
+    "storage_slots": [
+      { "slot": "0x7ebcc807b5c7e19f245995a55aed6f46f5f582f476a886b91b834b0ddf5854"}
+    ]
+  }
