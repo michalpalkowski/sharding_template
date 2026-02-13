@@ -1,8 +1,9 @@
 {
-  "deployment_block": 6417917,
+  "deployment_block": 6488623,
   "start_game_block": null,
-  "game_contract_address": "0x224e2de20b6bd81e886b64e8c4f87fdbaf8d77d1ff2875cf7c11c79c3fe9c0",
-  "shard_contract_address": "0xc79f39485af07dd5a3c2ab30e2f284c897819b731d5815a15f5447e3ead31c",
+  "game_contract_address": "0x13c484d0de50b76fe3c296401de4e0292125c7555833171985516d29897a914",
+  "shard_contract_address": "0x13847cd1dcfd883c88f3924a56f13a3cb0143c0176fc9a41b56f238a38e08b8",
   "katana_url": null,
-  "katana_instance_id": null
+  "katana_instance_id": null,
+  "onchain_shard_id": null
 }

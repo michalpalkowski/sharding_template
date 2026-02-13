@@ -4,3 +4,4 @@
 .deployment_state.json
 target/
 bin/
+.active_shard.json
