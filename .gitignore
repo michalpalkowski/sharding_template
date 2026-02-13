@@ -1,1 +1,6 @@
 .env
+.service_state.json
+.service_state.history.jsonl
+.deployment_state.json
+target/
+bin/

@@ -1,0 +1,11 @@
+{
+  "default_crdt_type": "add",
+  "storage_slots": [
+    { "slot": "total_score", "_slot_translated_to_hex": "0x3e7bf1bd0e3e361dde57df5431dd86656004107fef47ebc75bb8dc6f2051bb4" },
+    { "slot": "rounds_played", "_slot_translated_to_hex": "0xc4a74863227b05f3b73500f77ee2d4d73c7867fca35979e934a25c1d1e1c40" },
+    { "slot": "wins", "_slot_translated_to_hex": "0x1649d75a83842781bb42883fc933835b3ad7a52a0c066df87226bf17d8481de" },
+    { "slot": "high_score", "crdt_type": "set", "_slot_translated_to_hex": "0x1581f67f9a1ca9aac12a5ecf22626c8372706bed563b787f54c9b4785398bc2" },
+    { "slot": "tournament_active", "crdt_type": "lock", "_slot_translated_to_hex": "0x3062c277f4746ca98c1b1a242a6c78caf33b254a83e6f726c5eba8ca8c08677" },
+    { "slot": "health", "crdt_type": "set_lock", "_slot_translated_to_hex": "0x5b4bf3e8c5705ff2b172ed7c0ff76f0096efed0943457e640b66da01b97d2", "_comment": "exclusive access — only one shard modifies HP at a time" }
+  ]
+}
