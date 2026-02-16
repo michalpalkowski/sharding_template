@@ -26,8 +26,17 @@ With slots for test contract
 sharding_operator request-sharding --shard-contract-address <CONTR_ADDR> --storage-slots-file config/storage_slots.json
 ```
 
-With slots for tournament
+Show instances
+```
+sharding_operator list-instances
+```
 
+Clean instances if something went wrong
+```
+sharding_operator clean-instances --game-contract-address <GAME CONTR ADDR>
+```
+
+With slots for tournament
 ```
 sharding_operator request-sharding --shard-contract-address <CONTR_ADDR> --storage-slots-file /home/michal/Repos/sharding_template/config/tournament_storage_slots.json
 ```
