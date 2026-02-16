@@ -16,6 +16,11 @@ Deploy tournament
 sharding_operator deploy-test-contract --contract-class-path contracts/sharding_tests_tournament.contract_class.json
 ```
 
+register game contract on sharding contract as operator
+```
+sharding_operator register-operator --operator-address <GAME CONTR ADDR>
+```
+
 With slots for test contract
 ```
 sharding_operator request-sharding --shard-contract-address <CONTR_ADDR> --storage-slots-file config/storage_slots.json
